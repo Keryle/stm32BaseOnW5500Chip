@@ -17,15 +17,15 @@
 
 static wiz_NetInfo gWIZNETINFO = {
                             .mac = {0x78, 0x83, 0x68, 0x88, 0x56, 0x38},
-                            .ip =  {192, 168, 1,199},
+                            .ip =  {192, 168, 31,2},
                             .sn =  {255,255,255,0},
-                            .gw =  {192, 168,1,0},
-                            .dns = {180,76,76,76},
+                            .gw =  {192, 168,31,1},
+                            .dns = {192,168,31,1},
                             .dhcp = NETINFO_DHCP
                           };
 
-uint8_t locall_Ip[4] = {192,168,1,199};
-uint8_t destip[4] = {192,167,1,10};
+uint8_t locall_Ip[4] = {192,168,31,2};
+uint8_t destip[4] = {192,168,31,18};
 uint16_t destport = 60;
 
 void cris_en(void){}
@@ -131,7 +131,7 @@ void w5500_ChipInit(void)
 
 void socket0_Send(uint8_t *buf, uint16_t len)
 {
-  
+
   switch(send(0,buf,len)){
     case 1: printf("1 byte data sent Success\n");  break;
     case 13: printf("13 byte data sent Success\n"); break;

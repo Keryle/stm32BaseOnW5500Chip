@@ -42,7 +42,9 @@ main()
   }
 }
 
-
+/*
+ * Timer2 intterruput function
+ */
 void TIM2_IRQHandler(void)
 {
 	if(TIM_GetITStatus(TIM2, TIM_IT_Update) == SET)

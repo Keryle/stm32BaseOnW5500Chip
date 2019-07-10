@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\单片机\stm32\w5500\w5500基础程序\STM32F10X官方库移植\settings\STM32F10X Template.Debug.general.xcl" --backend -f "F:\单片机\stm32\w5500\w5500基础程序\STM32F10X官方库移植\settings\STM32F10X Template.Debug.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\单片机\stm32\w5500\w5500_GitBase\settings\STM32F10X Template.Debug.general.xcl" --backend -f "F:\单片机\stm32\w5500\w5500_GitBase\settings\STM32F10X Template.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\单片机\stm32\w5500\w5500基础程序\STM32F10X官方库移植\settings\STM32F10X Template.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\单片机\stm32\w5500\w5500基础程序\STM32F10X官方库移植\settings\STM32F10X Template.Debug.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\单片机\stm32\w5500\w5500_GitBase\settings\STM32F10X Template.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\单片机\stm32\w5500\w5500_GitBase\settings\STM32F10X Template.Debug.driver.xcl" 
 
 @echo off 
 :end

@@ -2495,6 +2495,9 @@
             <name>$PROJ_DIR$\USER\main.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\USER\mcu_init.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\USER\myw5500.c</name>
         </file>
         <file>
