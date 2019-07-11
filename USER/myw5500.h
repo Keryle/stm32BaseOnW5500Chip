@@ -16,6 +16,6 @@
 #include "spi.h"
 
 extern void w5500_Function_Config(void);
-extern void w5500_ChipInit(void);
+extern void w5500_ChipInit_TCP(void);
 extern void socket0_Send(uint8_t *buf, uint16_t len);
 #endif

@@ -353,6 +353,7 @@
                     <state>$PROJ_DIR$\DRIVER\inc\</state>
                     <state>$PROJ_DIR$\Ethernet</state>
                     <state>$PROJ_DIR$\Ethernet\w5100s</state>
+                    <state>$PROJ_DIR$\Internet\DHCP</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2196,6 +2197,12 @@
         </file>
         <file>
             <name>$PROJ_DIR$\FWLIB\src\stm32f10x_wwdg.c</name>
+        </file>
+    </group>
+    <group>
+        <name>Internet</name>
+        <file>
+            <name>$PROJ_DIR$\Internet\DHCP\dhcp.c</name>
         </file>
     </group>
     <group>

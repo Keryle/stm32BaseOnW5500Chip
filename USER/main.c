@@ -18,7 +18,6 @@ unsigned int W5500_Send_Delay_Counter=0; //W5500发送延时计数变量(ms)
 main()
 {
   uint8_t sendata[] = "Hello,world!\n";
-  printf("%2d\n",strlen(sendata));
   /**
    * SPI函数注册
    */
@@ -32,7 +31,7 @@ main()
    * w5500芯片初始化
    * @param None
    */
-  w5500_ChipInit();
+  w5500_ChipInit_TCP();
 
   while(1){
     if(W5500_Send_Delay_Counter > 1000){
