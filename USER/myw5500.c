@@ -69,7 +69,9 @@ void configNet(){
   #endif
 }
 
-
+/**
+ * ip assign
+ */
 
 void my_ip_assign(void)
 {
@@ -82,10 +84,11 @@ void my_ip_assign(void)
    ctlnetwork(CN_SET_NETINFO, (void*)&gWIZNETINFO);
 }
 
+/**
+ * ip cinflict
+ */
 void my_ip_conflict(void)
 {
-
-    //halt or reset or any...
     while(1); // this example is halt.
 }
 
