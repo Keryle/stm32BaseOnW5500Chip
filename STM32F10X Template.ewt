@@ -2490,6 +2490,12 @@
         </file>
     </group>
     <group>
+        <name>Internet</name>
+        <file>
+            <name>$PROJ_DIR$\Internet\DHCP\dhcp.c</name>
+        </file>
+    </group>
+    <group>
         <name>USER</name>
         <file>
             <name>$PROJ_DIR$\USER\main.c</name>
