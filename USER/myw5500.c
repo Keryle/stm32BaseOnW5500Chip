@@ -85,7 +85,7 @@ void my_ip_assign(void)
 }
 
 /**
- * ip cinflict
+ * ip c0nflict
  */
 void my_ip_conflict(void)
 {
